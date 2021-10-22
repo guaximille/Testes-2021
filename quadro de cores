@@ -1,0 +1,19 @@
+function setup() {
+  createCanvas(400, 400);
+   background(0, 0, 50);
+  
+}
+
+function draw() {
+  fill(mouseY, mouseX, 0);
+  noStroke();
+  rect (mouseY, mouseX, 50, 50);
+  fill(mouseX, 0, mouseY);
+  ellipse (mouseX, mouseY, 50, 50);
+
+}
+
+function mousePressed () {
+   background(0, 0, 50);
+  
+}
